@@ -1,0 +1,23 @@
+[gd_scene load_steps=4 format=2]
+
+[ext_resource path="res://recursos/Start Pressed.png" type="Texture" id=1]
+[ext_resource path="res://recursos/Normal Start.png" type="Texture" id=2]
+[ext_resource path="res://recursos/Start Select.png" type="Texture" id=3]
+
+[node name="Boton_Start" type="HBoxContainer"]
+anchor_right = 1.0
+margin_bottom = 64.0
+size_flags_horizontal = 3
+alignment = 1
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="TextureButton" type="TextureButton" parent="."]
+margin_left = 440.0
+margin_right = 584.0
+margin_bottom = 64.0
+size_flags_horizontal = 6
+texture_normal = ExtResource( 2 )
+texture_pressed = ExtResource( 1 )
+texture_hover = ExtResource( 3 )

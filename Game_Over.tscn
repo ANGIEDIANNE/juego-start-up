@@ -1,0 +1,67 @@
+[gd_scene load_steps=6 format=2]
+
+[ext_resource path="res://entorno/GAME23-01 (1).jpg" type="Texture" id=1]
+[ext_resource path="res://Game_Over.gd" type="Script" id=2]
+[ext_resource path="res://Boton_Start.tscn" type="PackedScene" id=3]
+[ext_resource path="res://Boton_Stop.tscn" type="PackedScene" id=4]
+[ext_resource path="res://recursos/Sonidos/efecto-de-sonido.ogg" type="AudioStream" id=5]
+
+[node name="titulo" type="Node"]
+script = ExtResource( 2 )
+
+[node name="TextureRect" type="TextureRect" parent="."]
+margin_right = 1025.0
+margin_bottom = 597.0
+texture = ExtResource( 1 )
+expand = true
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Margen_titulo" type="VBoxContainer" parent="."]
+anchor_left = 0.5
+anchor_top = 0.635
+anchor_right = 0.5
+anchor_bottom = 1.0
+margin_left = -45.6828
+margin_top = -137.348
+margin_right = 101.317
+margin_bottom = -137.348
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Boton_Start" parent="Margen_titulo" instance=ExtResource( 3 )]
+anchor_right = 0.0
+margin_top = 66.0
+margin_right = 147.0
+margin_bottom = 107.0
+size_flags_vertical = 14
+
+[node name="TextureButton" parent="Margen_titulo/Boton_Start" index="0"]
+margin_left = 1.0
+margin_right = 145.0
+margin_bottom = 41.0
+
+[node name="Boton_Stop" parent="Margen_titulo" instance=ExtResource( 4 )]
+anchor_right = 0.0
+anchor_bottom = 0.0
+margin_top = 143.0
+margin_right = 147.0
+margin_bottom = 186.0
+size_flags_horizontal = 2
+size_flags_vertical = 6
+
+[node name="TextureButton" parent="Margen_titulo/Boton_Stop" index="0"]
+margin_bottom = 43.0
+
+[node name="Losser" type="AudioStreamPlayer" parent="."]
+stream = ExtResource( 5 )
+volume_db = -12.866
+autoplay = true
+
+[connection signal="pressed" from="Margen_titulo/Boton_Start/TextureButton" to="." method="_on_start_TextureButton_pressed"]
+[connection signal="pressed" from="Margen_titulo/Boton_Stop/TextureButton" to="." method="_on_Stop_TextureButton_pressed"]
+
+[editable path="Margen_titulo/Boton_Start"]
+[editable path="Margen_titulo/Boton_Stop"]
