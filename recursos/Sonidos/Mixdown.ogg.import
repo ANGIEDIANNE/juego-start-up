@@ -1,0 +1,15 @@
+[remap]
+
+importer="ogg_vorbis"
+type="AudioStreamOGGVorbis"
+path="res://.import/Mixdown.ogg-4cc1a817be056fad89e563b0464e2de3.oggstr"
+
+[deps]
+
+source_file="res://recursos/Sonidos/Mixdown.ogg"
+dest_files=[ "res://.import/Mixdown.ogg-4cc1a817be056fad89e563b0464e2de3.oggstr" ]
+
+[params]
+
+loop=true
+loop_offset=0

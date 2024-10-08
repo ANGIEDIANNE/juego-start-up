@@ -1,0 +1,172 @@
+[gd_scene load_steps=16 format=2]
+
+[ext_resource path="res://entorno/pngtree-modern-double-colors-neon-lights-on-brick-background-image_324803.jpg" type="Texture" id=1]
+[ext_resource path="res://player/player.tscn" type="PackedScene" id=2]
+[ext_resource path="res://entorno/palms-308382_960_720.png" type="Texture" id=3]
+[ext_resource path="res://entorno/WhatsApp_Image_2021-07-03_at_19.02.08-removebg-preview.png" type="Texture" id=4]
+[ext_resource path="res://recursos/moneda.tscn" type="PackedScene" id=5]
+[ext_resource path="res://entorno/Minimalism-art-picture-city-skyscrapers-8-bit-pixels_1920x1080.jpeg" type="Texture" id=6]
+[ext_resource path="res://portal/Portal3.tscn" type="PackedScene" id=7]
+[ext_resource path="res://enemigo/KinematicBody2D.tscn" type="PackedScene" id=8]
+[ext_resource path="res://recursos/Best_Music_Gamingw_50k_mp3cut.net_1_.ogg" type="AudioStream" id=9]
+[ext_resource path="res://entorno/WhatsApp Image 2021-07-16 at 00.15.00.jpeg" type="Texture" id=10]
+
+[sub_resource type="ConvexPolygonShape2D" id=1]
+points = PoolVector2Array( 0, 0, 896, 0, 896, 448, 0, 448 )
+
+[sub_resource type="ConvexPolygonShape2D" id=2]
+points = PoolVector2Array( 0, 0, 864, 0, 864, 736, 0, 736 )
+
+[sub_resource type="ConvexPolygonShape2D" id=3]
+points = PoolVector2Array( 0, 0, 500, 0, 500, 445, 0, 445 )
+
+[sub_resource type="ConvexPolygonShape2D" id=4]
+points = PoolVector2Array( 0, 0, 972, 0, 972, 462, 0, 462 )
+
+[sub_resource type="TileSet" id=5]
+0/name = "pngtree-modern-double-colors-neon-lights-on-brick-background-image_324803.jpg 0"
+0/texture = ExtResource( 1 )
+0/tex_offset = Vector2( 0, 0 )
+0/modulate = Color( 1, 1, 1, 1 )
+0/region = Rect2( 32, 0, 896, 448 )
+0/tile_mode = 0
+0/occluder_offset = Vector2( 0, 0 )
+0/navigation_offset = Vector2( 0, 0 )
+0/shape_offset = Vector2( 0, 0 )
+0/shape_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
+0/shape = SubResource( 1 )
+0/shape_one_way = false
+0/shape_one_way_margin = 1.0
+0/shapes = [ {
+"autotile_coord": Vector2( 0, 0 ),
+"one_way": false,
+"one_way_margin": 1.0,
+"shape": SubResource( 1 ),
+"shape_transform": Transform2D( 1, 0, 0, 1, 0, 0 )
+} ]
+0/z_index = 0
+1/name = "palms-308382_960_720.png 1"
+1/texture = ExtResource( 3 )
+1/tex_offset = Vector2( 0, 0 )
+1/modulate = Color( 1, 1, 1, 1 )
+1/region = Rect2( 0, -32, 864, 736 )
+1/tile_mode = 0
+1/occluder_offset = Vector2( 0, 0 )
+1/navigation_offset = Vector2( 0, 0 )
+1/shape_offset = Vector2( 0, 0 )
+1/shape_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
+1/shape = SubResource( 2 )
+1/shape_one_way = false
+1/shape_one_way_margin = 1.0
+1/shapes = [ {
+"autotile_coord": Vector2( 0, 0 ),
+"one_way": false,
+"one_way_margin": 1.0,
+"shape": SubResource( 2 ),
+"shape_transform": Transform2D( 1, 0, 0, 1, 0, 0 )
+} ]
+1/z_index = 0
+2/name = "WhatsApp_Image_2021-07-03_at_19.02.08-removebg-preview.png 2"
+2/texture = ExtResource( 4 )
+2/tex_offset = Vector2( 0, 0 )
+2/modulate = Color( 1, 1, 1, 1 )
+2/region = Rect2( 25, 5, 500, 445 )
+2/tile_mode = 0
+2/occluder_offset = Vector2( 0, 0 )
+2/navigation_offset = Vector2( 0, 0 )
+2/shape_offset = Vector2( 0, 0 )
+2/shape_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
+2/shape = SubResource( 3 )
+2/shape_one_way = false
+2/shape_one_way_margin = 2.0
+2/shapes = [ {
+"autotile_coord": Vector2( 0, 0 ),
+"one_way": false,
+"one_way_margin": 2.0,
+"shape": SubResource( 3 ),
+"shape_transform": Transform2D( 1, 0, 0, 1, 0, 0 )
+} ]
+2/z_index = 0
+3/name = "WhatsApp Image 2021-07-16 at 00.15.00.jpeg 3"
+3/texture = ExtResource( 10 )
+3/tex_offset = Vector2( 0, 0 )
+3/modulate = Color( 1, 1, 1, 1 )
+3/region = Rect2( -5, -5, 972, 462 )
+3/tile_mode = 0
+3/occluder_offset = Vector2( 0, 0 )
+3/navigation_offset = Vector2( 0, 0 )
+3/shape_offset = Vector2( 0, 0 )
+3/shape_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
+3/shape = SubResource( 4 )
+3/shape_one_way = false
+3/shape_one_way_margin = 1.0
+3/shapes = [ {
+"autotile_coord": Vector2( 0, 0 ),
+"one_way": false,
+"one_way_margin": 1.0,
+"shape": SubResource( 4 ),
+"shape_transform": Transform2D( 1, 0, 0, 1, 0, 0 )
+} ]
+3/z_index = 0
+
+[node name="mundo" type="Node2D"]
+
+[node name="Sprite" type="Sprite" parent="."]
+position = Vector2( 512.033, 301.671 )
+scale = Vector2( 0.533361, 0.552613 )
+texture = ExtResource( 6 )
+
+[node name="TileMap" type="TileMap" parent="."]
+scale = Vector2( 0.05, 0.08 )
+tile_set = SubResource( 5 )
+format = 1
+tile_data = PoolIntArray( 0, 3, 0, 65841, 3, 0, 327985, 3, 0, 393216, 3, 0, 786737, 3, 0, 851968, 3, 0, 1245489, 3, 0, 1310720, 3, 0, 1704241, 3, 0, 1769472, 3, 0, 2162993, 3, 0, 2228224, 3, 0, 2621745, 3, 0, 2686976, 3, 0, 3080497, 3, 0, 3145728, 3, 0, 3539249, 3, 0, 3998001, 3, 0, 4456448, 3, 0, 4456462, 3, 0, 4456476, 3, 0, 4456604, 3, 0, 4456753, 3, 0, 4915200, 3, 0, 4915214, 3, 0, 4915228, 3, 0, 4915242, 3, 0, 4915343, 3, 0, 4915356, 3, 0, 4915371, 3, 0, 4915505, 3, 0, 5373952, 3, 0, 5373966, 3, 0, 5373980, 3, 0, 5373995, 3, 0, 5374010, 3, 0, 5374078, 3, 0, 5374093, 3, 0, 5374108, 3, 0, 5374123, 3, 0, 5374138, 3, 0, 5374257, 3, 0, 5832704, 3, 0, 5832815, 3, 0, 5833009, 3, 0, 6291456, 3, 0, 6291552, 3, 0, 6291666, 3, 0, 6750208, 3, 0, 6750404, 3, 0, 6750418, 3, 0, 6750432, 3, 0, 6750474, 3, 0, 6750488, 3, 0, 7208960, 3, 0, 7208974, 3, 0, 7208988, 3, 0, 7209002, 3, 0, 7209017, 3, 0, 7209032, 3, 0, 7209047, 3, 0, 7209058, 3, 0, 7209072, 3, 0, 7209086, 3, 0, 7209100, 3, 0, 7209114, 3, 0, 7209128, 3, 0, 7209142, 3, 0, 7209156, 3, 0, 7209170, 3, 0, 7209184, 3, 0, 7209198, 3, 0, 7209212, 3, 0, 7209226, 3, 0, 7209240, 3, 0, 7209255, 3, 0, 7209265, 3, 0 )
+
+[node name="player" parent="." instance=ExtResource( 2 )]
+position = Vector2( 24.7988, 321.025 )
+scale = Vector2( 0.8, 0.8 )
+
+[node name="moneda" parent="." instance=ExtResource( 5 )]
+position = Vector2( 961.152, 548.129 )
+
+[node name="moneda4" parent="." instance=ExtResource( 5 )]
+visible = false
+position = Vector2( 738.498, 358.737 )
+
+[node name="moneda5" parent="." instance=ExtResource( 5 )]
+position = Vector2( 204.703, 399.15 )
+
+[node name="moneda6" parent="." instance=ExtResource( 5 )]
+position = Vector2( 806.853, 544.27 )
+
+[node name="moneda2" parent="." instance=ExtResource( 5 )]
+position = Vector2( 475.245, 364.482 )
+
+[node name="moneda8" parent="." instance=ExtResource( 5 )]
+position = Vector2( 694.172, 472.531 )
+
+[node name="moneda9" parent="." instance=ExtResource( 5 )]
+position = Vector2( 111.512, 327.425 )
+
+[node name="moneda7" parent="." instance=ExtResource( 5 )]
+position = Vector2( 276.728, 535.762 )
+
+[node name="moneda3" parent="." instance=ExtResource( 5 )]
+position = Vector2( 159.975, 361.927 )
+
+[node name="Portal3" parent="." instance=ExtResource( 7 )]
+position = Vector2( 994.138, 510.139 )
+
+[node name="enemigo" parent="." instance=ExtResource( 8 )]
+position = Vector2( 506.402, 335.666 )
+
+[node name="enemigo2" parent="." instance=ExtResource( 8 )]
+position = Vector2( 583.149, 556.952 )
+
+[node name="enemigo3" parent="." instance=ExtResource( 8 )]
+position = Vector2( 126.821, 551.332 )
+
+[node name="Sound" type="AudioStreamPlayer" parent="."]
+stream = ExtResource( 9 )
+volume_db = -11.794
+autoplay = true

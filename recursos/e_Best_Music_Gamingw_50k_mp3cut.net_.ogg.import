@@ -1,0 +1,15 @@
+[remap]
+
+importer="ogg_vorbis"
+type="AudioStreamOGGVorbis"
+path="res://.import/e_Best_Music_Gamingw_50k_mp3cut.net_.ogg-65d674b94e5b9df7abaa392063b58ef2.oggstr"
+
+[deps]
+
+source_file="res://recursos/e_Best_Music_Gamingw_50k_mp3cut.net_.ogg"
+dest_files=[ "res://.import/e_Best_Music_Gamingw_50k_mp3cut.net_.ogg-65d674b94e5b9df7abaa392063b58ef2.oggstr" ]
+
+[params]
+
+loop=true
+loop_offset=0

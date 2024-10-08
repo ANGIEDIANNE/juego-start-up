@@ -1,0 +1,15 @@
+[remap]
+
+importer="ogg_vorbis"
+type="AudioStreamOGGVorbis"
+path="res://.import/efecto-de-sonido.ogg-83be224cce0598fffcafae55e55b0d4d.oggstr"
+
+[deps]
+
+source_file="res://recursos/Sonidos/efecto-de-sonido.ogg"
+dest_files=[ "res://.import/efecto-de-sonido.ogg-83be224cce0598fffcafae55e55b0d4d.oggstr" ]
+
+[params]
+
+loop=true
+loop_offset=0

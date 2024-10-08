@@ -1,0 +1,15 @@
+[remap]
+
+importer="ogg_vorbis"
+type="AudioStreamOGGVorbis"
+path="res://.import/A_EDITAR_VIDEOS_2019_50k_mp3cut.net_.ogg-f3d1e1d1600bf483de5cacfcede4d695.oggstr"
+
+[deps]
+
+source_file="res://recursos/A_EDITAR_VIDEOS_2019_50k_mp3cut.net_.ogg"
+dest_files=[ "res://.import/A_EDITAR_VIDEOS_2019_50k_mp3cut.net_.ogg-f3d1e1d1600bf483de5cacfcede4d695.oggstr" ]
+
+[params]
+
+loop=true
+loop_offset=0

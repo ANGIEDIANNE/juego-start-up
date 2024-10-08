@@ -1,0 +1,15 @@
+[remap]
+
+importer="ogg_vorbis"
+type="AudioStreamOGGVorbis"
+path="res://.import/mario-bros-sonido-de-moneda.ogg-48358f9c8c1a4a10239a93a52b5d8ffb.oggstr"
+
+[deps]
+
+source_file="res://recursos/mario-bros-sonido-de-moneda.ogg"
+dest_files=[ "res://.import/mario-bros-sonido-de-moneda.ogg-48358f9c8c1a4a10239a93a52b5d8ffb.oggstr" ]
+
+[params]
+
+loop=true
+loop_offset=0

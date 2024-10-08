@@ -1,0 +1,15 @@
+[remap]
+
+importer="ogg_vorbis"
+type="AudioStreamOGGVorbis"
+path="res://.import/-_Bitter_World_ft_mp3cut.net_.ogg-09b5b36a5fe131aab744268d56670687.oggstr"
+
+[deps]
+
+source_file="res://recursos/-_Bitter_World_ft_mp3cut.net_.ogg"
+dest_files=[ "res://.import/-_Bitter_World_ft_mp3cut.net_.ogg-09b5b36a5fe131aab744268d56670687.oggstr" ]
+
+[params]
+
+loop=true
+loop_offset=0
